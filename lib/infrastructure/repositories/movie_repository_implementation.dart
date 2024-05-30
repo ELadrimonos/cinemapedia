@@ -5,7 +5,7 @@ import 'package:cinemapedia/domain/repositories/movies_repository.dart';
 
 class MovieRepositoryImpl implements MovieRepository {
 
-  final MovieDataSource datasource;
+  final MoviesDataSource datasource;
 
   MovieRepositoryImpl(this.datasource);
 

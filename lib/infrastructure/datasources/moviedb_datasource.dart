@@ -5,7 +5,7 @@ import 'package:cinemapedia/infrastructure/models/moviedb/moviedb_response.dart'
 import 'package:cinemapedia/config/constants/environment.dart';
 import 'package:dio/dio.dart';
 
-class MovieDbDatasource extends MovieDataSource {
+class MovieDbDatasource extends MoviesDataSource {
 
   final dio = Dio(BaseOptions(
     baseUrl: 'https://api.themoviedb.org/3',
